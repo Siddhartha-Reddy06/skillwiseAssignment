@@ -1,0 +1,12 @@
+name,unit,category,brand,stock,status
+Laptop,pieces,Electronics,Dell,50,Active
+Mouse,pieces,Electronics,Logitech,100,Active
+Keyboard,pieces,Electronics,Microsoft,75,Active
+Monitor,pieces,Electronics,Samsung,30,Active
+Headphones,pieces,Electronics,Sony,60,Active
+Desk Chair,pieces,Furniture,IKEA,25,Active
+Office Desk,pieces,Furniture,Steelcase,15,Active
+Notebook,pieces,Stationery,Moleskine,200,Active
+Pen,pieces,Stationery,Pilot,500,Active
+Stapler,pieces,Office Supplies,3M,40,Active
+

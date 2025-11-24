@@ -1,0 +1,36 @@
+.category-filter {
+  width: 100%;
+  position: relative;
+}
+
+.category-select {
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid rgba(102, 126, 234, 0.3);
+  border-radius: 12px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23667eea' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  padding-right: 40px;
+}
+
+.category-select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1), 0 6px 20px rgba(102, 126, 234, 0.2);
+  transform: translateY(-2px);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.category-select:hover {
+  border-color: #667eea;
+  transform: translateY(-1px);
+}
+
